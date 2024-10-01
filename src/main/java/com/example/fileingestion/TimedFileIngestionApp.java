@@ -25,7 +25,7 @@ public class TimedFileIngestionApp {
      * - Your application is relatively simple and doesn't require high scalability.
      * - You're processing a manageable number of items and can afford to lose some data if the application crashes.
      * - You are running in a single instance and don't need the distributed capabilities.
-     * 
+     *
      * Use RabbitMQ If:
      * - You're dealing with a high volume of items that may require distributed processing across multiple instances.
      * - You need reliable message delivery and want to ensure that no items are lost.
