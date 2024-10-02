@@ -1,0 +1,8 @@
+services:
+  file-ingestion-app:
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - "/Users/home/ingestion:/usr/src/app/ingestion"
+      - "/Users/home/ingestion-completed:/usr/src/app/ingestion-completed"
+      - "/Users/home/ingestion-error:/usr/src/app/ingestion-error"
